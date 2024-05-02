@@ -32,19 +32,18 @@
 
 // 4-misol
 // function rangeSum(arr, k, l) {
-//   let sum = 0;
-
-//   for (let i = k; i <= l; i++) {
-//     sum += arr[i];
-//   }
-
-//   return sum;
-// }
-
 // let arr = [1, 6, 9, 5, 8, 10, 20];
 // let k = 3;
 // let l = 5;
+
+//   let sum = 0;
 // let result = rangeSum(arr, k, l);
+//   for (let i = k; i <= l; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+
 // console.log(result);
 
 // 7-misol
