@@ -30,27 +30,6 @@
 // let hosilbolganArr = getEvenReverse(berilganArr);
 // console.log(hosilbolganArr);
 
-// 3-misol
-// function tartibRaqam(A) {
-//   let n = A.length;
-//   let result = [];
-//   let son = Math.ceil(n / 2);
-
-//   for (var i = 0; i < son; i++) {
-//     result.push(A[i], A[n - 1 - i]);
-//   }
-
-//   if (n % 2 !== 0) {
-//     result.push(A[son - 1]);
-//   }
-
-//   return result;
-// }
-
-// let n = [4, 5, 7, 8, 6, 9];
-// let chaqiruvchi = tartibRaqam(n);
-// console.log(chaqiruvchi);
-
 // 4-misol
 // function rangeSum(arr, k, l) {
 //   let sum = 0;
@@ -69,7 +48,7 @@
 // console.log(result);
 
 // 7-misol
-// function shiftArrayRight(arr) {
+// function arrayRight(arr) {
 //   if (arr.length <= 1) return arr;
 //   let temp = arr[0];
 //   for (let i = 0; i < arr.length - 1; i++) {
@@ -80,5 +59,5 @@
 // }
 
 // const son = [1, 5, 8, 9, 10];
-// const son2 = shiftArrayRight(son);
+// const son2 = arrayRight(son);
 // console.log(son2);
